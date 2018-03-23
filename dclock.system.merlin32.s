@@ -18,8 +18,8 @@
 ;   so won't launch from an AppleShare volume.
 
 ; Build instructions:
-; ca65 dclock.system.s -l dclock.system.lst
-; ld65 -t none -o dclock.system dclock.system.o
+; merlin32 dclock.system.merlin32.s
+;
 ; put dclock.system as a SYS file on a ProDOS disk.
 
 FIX_BUGS        = 0                            ; set to 1 to fix critical bugs
