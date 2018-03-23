@@ -24,7 +24,7 @@
 
 FIX_BUGS        = 0                            ; set to 1 to fix critical bugs
 
-;.setcpu "65C02"
+
 
 ; zero page locations
 SLASHOFFS       = $00                          ; offset of last '/' in our path
