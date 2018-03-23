@@ -95,7 +95,6 @@ PRODOS_GET_EOF    = $D1
 ; ----------------------------------------------------------------------------
 ; relocate code from RELOCS to RELOCT
 DClockSystem
-RSEG1 = rseg1e-rseg1b   ; MERLIN32: removed ()
         ldy     #rseg1e-rseg1b                 ; MERLIN32: removed ()
 :_      lda     RELOCS,y
         sta     RELOCT-1,y 
